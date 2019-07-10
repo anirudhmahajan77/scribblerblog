@@ -1,0 +1,160 @@
+.blogTite {
+    font-size: 150%;
+    font-family: 'Abel', sans-serif;
+    font-weight: bold;
+}
+.blogText {
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.blogAuthor {
+    padding: 0px 0px 0px 10px;
+    font-family: 'Niconne', cursive;
+    font-size: 30px;
+}
+.blogContent{
+
+}
+
+/* Set a style for all the remaining elements like Like button, Edit button, Comment button and so on. */
+/* Set a style for the rest of the elements besides the header elements on the index.html page */
+.inp{
+    border: none;
+    outline: none;
+    padding: 10px;
+    background-color: #f1f1f1;
+    display: block;
+    width:98%;
+    height:44px;
+ }
+ 
+ .postButtons {
+    width:300px;
+    height:200px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin:-100px 0 0 -150px;
+ }
+ 
+ input.mainButtons {
+    width: 100px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 90%;
+    font-weight: 500;
+    background: yellow;
+    color: #000;    
+    border: none;           
+    margin: 10px 10px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ button.mainButtons {
+    width: 100px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 90%;
+    font-weight: 500;
+    background: yellow;
+    color: #000;  
+    opacity: 1;             
+    margin: 10px 10px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ button.mainButtons a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+ 
+ }
+ 
+   /* Modal Content */
+   .modal-content {
+    position: relative;
+    top: -34px;
+    color: black;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 44%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+ .close:hover,
+ .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#blogBody{
+    text-align: justify;
+    padding: 7px;
+    border: none;
+    width: 100%;
+    height: auto;
+}
+
+#blogTitleNew{
+    text-align: center;
+}
+
+.edit-save{
+    background-color: #f2295b;
+    color: white;
+    font-weight: 500;
+    float: right;
+    width: 120px;
+    box-shadow: #f2295b 0 3px 5px;
+}
+
+#like{
+    background-color: #f2295b;
+    color: white;
+    font-weight: 500;
+    width: 120px;
+    box-shadow: #f2295b 0 3px 5px;
+}
+
+#cmnt{
+    background-color: #f2295b;
+    color: white;
+    font-weight: 500;
+    width: 120px;
+    box-shadow: #f2295b 0 3px 5px;
+}
+
+#main{
+    margin: 20px 65px 20px 65px;
+}
+
+#comment{
+    display: block;
+    width: 75%;
+    
+}
+
+#newCommentHolder{
+    width: 100%;
+    height: auto;
+    background-color: #b9b3b3;
+    padding: 10px;
+}
+
+#newComment{
+    padding: 7px;
+    text-align: justify;
+    background-color: white;
+}
