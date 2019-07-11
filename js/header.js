@@ -1,9 +1,7 @@
-
-
-// Get the modal
+// Get the Sign Up modal
 var modal = document.getElementById("snup");
 
-// Get the button that opens the modal
+// Get the button that opens the Sign Up modal
 var btn = document.getElementById("signUp");
 
 // Get the <span> element that closes the modal
@@ -30,7 +28,7 @@ window.onclick = function (event) {
 // Get the Sign In modal
 var modal1 = document.getElementById("snin");
 
-// Get the button that opens the modal
+// Get the button that opens the Sign In modal
 var btn1 = document.getElementById("signIn");
 
 // Get the <span> element that closes the modal
@@ -53,9 +51,13 @@ window.onclick = function (event) {
     }
 }
 
+/* newUser() move the active visitor from sign in modal to the sign up modal 
+   for registration of a new user */
 function newUser(){
+    // Fetches the sign in modals and hides it
     var modal1 = document.getElementById("snin");
     modal1.style.display = "none";
+    // After hiding the sign in modal it make the sign up modal visible
     var modal = document.getElementById("snup");
     modal.style.display = 'block';
 }

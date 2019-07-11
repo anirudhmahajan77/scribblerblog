@@ -20,7 +20,7 @@
 
 <body>
     <div id="main-container-div">
-
+        <!-- Main header starts here -->
         <div class="header">
 
             <input id="signUp" class="topButtons" type="button" value="Sign Up">
@@ -31,14 +31,14 @@
         </div>
 
         <div class="postButtons">
-
-            <button  class="mainButtons"><a href="html/bloglist.html">All Posts</a></button>
+            <!-- Sign In and Sign Up Modals -->
+            <button class="mainButtons"><a href="html/bloglist.html">All Posts</a></button>
             <input class="mainButtons" type="button" value="Create Post">
-
+            <!-- Main header ends here -->
         </div>
     </div>
 
-<!-- Sign In Modal Content -->
+    <!-- Sign In Modal Content -->
     <div class="modal" id="snin">
 
         <!-- Modal content -->
@@ -55,14 +55,17 @@
                 <input class="inp" type="password" name="pass" placeholder="Enter Password" required>
                 <button>Sign In</button>
                 <div>
-                    <center><h4>Not a member?<span style="color:slateblue; cursor: pointer;" onclick="newUser()">Sign Up</span></h4></center>
+                    <center>
+                        <h4>Not a member?<span style="color:slateblue; cursor: pointer;" onclick="newUser()">Sign
+                                Up</span></h4>
+                    </center>
                 </div>
             </form>
         </div>
 
     </div>
 
-<!-- Sign Up Modal Content -->
+    <!-- Sign Up Modal Content -->
     <div id="snup" class="modal">
 
         <!-- Modal content -->
@@ -89,13 +92,13 @@
 
     <div>
 
-        <!-- Insert code for Create Post modal here -->
+        <!-- Code for Create Post modal -->
 
     </div>
 
-    <!-- Place all Javascript for header in this file -->
+    <!-- Javascript for header in this file -->
     <script src="js\header.js"></script>
-    <!-- Place all Javascript for rest of the elements in this file -->
+    <!-- Javascript for rest of the elements in this file -->
     <script src="js\index.js"></script>
 
 </body>

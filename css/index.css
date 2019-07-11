@@ -10,7 +10,7 @@ body{
    display: block;
 } 
 
-/* Set a style for the rest of the elements besides the header elements on the index.html page */
+/* styles the input fields in the modals */
 .inp{
    border: none;
    outline: none;
@@ -21,6 +21,10 @@ body{
    height:44px;
 }
 
+/* Styles the main heading buttons container
+   on the right for
+   sign in and sign up modals 
+*/
 .postButtons {
    width:300px;
    height:200px;
@@ -30,6 +34,7 @@ body{
    margin:-100px 0 0 -150px;
 }
 
+/* Style the main body button */
 input.mainButtons {
    width: 100px;
    padding: 10px;
@@ -58,6 +63,7 @@ button.mainButtons {
    font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Style the link on the main body */
 button.mainButtons a{
    text-decoration: none;
    color: black;
@@ -65,7 +71,7 @@ button.mainButtons a{
 
 }
 
-  /* Modal Content */
+  /* Style The Modal Content */
   .modal-content {
    position: relative;
    top: -34px;
@@ -76,7 +82,7 @@ button.mainButtons a{
    width: 44%;
  }
  
- /* The Close Button */
+ /* The Close button on the modal*/
  .close {
    color: #aaaaaa;
    float: right;
