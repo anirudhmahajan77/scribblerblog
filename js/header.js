@@ -45,7 +45,7 @@ window.onclick = function (event) {
 
 /* newUser() move the active visitor from sign in modal to the sign up modal 
    for registration of a new user */
-function newUser(){
+function newUser() {
     // Fetches the sign in modals and hides it
     var modal1 = document.getElementById("snin");
     modal1.style.display = "none";
