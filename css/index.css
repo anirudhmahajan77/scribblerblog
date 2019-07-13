@@ -86,13 +86,12 @@ a button.mainButtons{
 
 /* Style for the content field in the createPostModal */
 #createPost{
-	background-color: #f1f1f1;
-   width: 100%;
+   width: 98%;
+   background-color: #f1f1f1;
    height: auto;
+   border: none;
+   outline: none;
+   padding: 10px;
+   display: block;
    resize: none;
-}
-/* Style for the title field in the createPostModal */
-#title{
-	background-color: #f1f1f1;
-    width: 100%;
 }
