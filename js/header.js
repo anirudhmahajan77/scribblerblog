@@ -17,14 +17,6 @@ span.onclick = function () {
     modal.style.display = "none";
 }
 
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function (event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
-
-
 // Get the Sign In modal
 var modal1 = document.getElementById("snin");
 

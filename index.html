@@ -32,8 +32,9 @@
 
         <div class="postButtons">
             <!-- Sign In and Sign Up Modals -->
-            <button class="mainButtons"><a href="html/bloglist.html">All Posts</a></button>
-            <input class="mainButtons" type="button" value="Create Post">
+            <a href="html/bloglist.html"><button class="mainButtons">All Posts</button></a>
+            <button id="createPostBtn" class="mainButtons">Create Post</button>
+
             <!-- Main header ends here -->
         </div>
     </div>
@@ -93,8 +94,23 @@
     <div>
 
         <!-- Code for Create Post modal -->
+        
 
-    </div>
+<!-- The Modal -->
+<div id="createPostModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span id="closePost" class="close">&times;</span>
+    <p>Title:</p>
+    <input id="title" type="text" required>
+    <p>Content:</p>
+    <textarea rows="6" id="createPost"></textarea>
+    <button>Publish</button>
+  </div>
+
+</div>
+    
 
     <!-- Javascript for header in this file -->
     <script src="js\header.js"></script>

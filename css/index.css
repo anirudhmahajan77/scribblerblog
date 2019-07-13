@@ -34,23 +34,10 @@ body{
    margin:-100px 0 0 -150px;
 }
 
-/* Style the main body button */
-input.mainButtons {
-   width: 100px;
-   padding: 10px;
-   cursor: pointer;
-   font-weight: 500;
-   font-size: 90%;
-   font-weight: 500;
-   background: yellow;
-   color: #000;    
-   border: none;           
-   margin: 10px 10px 0px 0px;
-   font-family: Arial, Helvetica, sans-serif;
-}
 
 button.mainButtons {
    width: 100px;
+   background: initial;
    padding: 10px;
    cursor: pointer;
    font-weight: 500;
@@ -64,7 +51,7 @@ button.mainButtons {
 }
 
 /* Style the link on the main body */
-button.mainButtons a{
+a button.mainButtons{
    text-decoration: none;
    color: black;
    font-weight: 500;
@@ -95,4 +82,17 @@ button.mainButtons a{
    color: #000;
    text-decoration: none;
    cursor: pointer;
+}
+
+/* Style for the content field in the createPostModal */
+#createPost{
+	background-color: #f1f1f1;
+   width: 100%;
+   height: auto;
+   resize: none;
+}
+/* Style for the title field in the createPostModal */
+#title{
+	background-color: #f1f1f1;
+    width: 100%;
 }
